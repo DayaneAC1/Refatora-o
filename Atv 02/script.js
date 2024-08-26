@@ -7,7 +7,7 @@ function calc(id1, id2, respId, operador){
         case "+":
             resultado = num1 + num2
             break;
-         case "-":
+        case "-":
             resultado = num1 - num2
             break;
         case "/":
@@ -27,4 +27,3 @@ function calc(id1, id2, respId, operador){
     document.getElementById(respId).textContent = resultado
 }
 
-console.log("Calculadora")
